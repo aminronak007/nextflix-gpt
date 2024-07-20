@@ -5,6 +5,14 @@
 - Header
 - Login Form
 - SignUp Form
+- Form Validation
+- useRef Hook
+- Firebase Setup
+- Deploying our App to production
+- Create SignUp User Account
+- Implement Sign In User Api
+- Created Redux Store with User Slice
+- Implemented Sign out feature
 
 # Features
 

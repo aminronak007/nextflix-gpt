@@ -29,6 +29,11 @@
 - Embedded the youtube video and make it autoplay and mute in the background
 - Tailwind Classes to make Main Container look awesome
 - Build Secondary Container Component
+- Build Movie List
+- Build Movie Card
+- Added TMDB Image CDN
+- Made the Browse Page amazing with Tailwind CSS
+- usePopularMovies, useUpcomingMovies, useTopRatedMovies custom hooks
 
 # Features
 

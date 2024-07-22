@@ -36,7 +36,7 @@
 - usePopularMovies, useUpcomingMovies, useTopRatedMovies custom hooks
 - GPT Search Page
 - GPT Search Bar
-- (FEATURE) Multi-Language Feature in our App
+- Multi-Language Feature in our App
 - Integrate GPT APIS (Get OpenAI Key)
 
 # Features

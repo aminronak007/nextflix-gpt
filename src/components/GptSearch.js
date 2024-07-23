@@ -1,17 +1,23 @@
-import React from "react";
+import React, { Fragment } from "react";
 import GptSearchBar from "./GptSearchBar";
 import GptMovieSuggestions from "./GptMovieSuggestions";
 import { BACKGROUND_IMG_URL } from "utils/constants";
 
 const GptSearch = () => {
   return (
-    <div>
+    <Fragment>
       <div className="fixed -z-10">
-        <img src={BACKGROUND_IMG_URL} alt="gpt-search" />{" "}
+        <img
+          src={BACKGROUND_IMG_URL}
+          className="h-screen object-cover md:w-screen"
+          alt="gpt-search"
+        />
       </div>
-      <GptSearchBar />
-      <GptMovieSuggestions />
-    </div>
+      <div className="">
+        <GptSearchBar />
+        <GptMovieSuggestions />
+      </div>
+    </Fragment>
   );
 };
 
